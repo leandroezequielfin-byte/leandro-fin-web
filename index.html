@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Leandro Fin — Desarrollador de Soluciones Informáticas | Software, Apps y Automatización</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2048%2048%22%20fill%3D%22none%22%3E%3Crect%20x%3D%227%22%20y%3D%227%22%20width%3D%2223%22%20height%3D%2232%22%20rx%3D%224%22%20fill%3D%22none%22%20stroke%3D%22%23E6A33C%22%20stroke-width%3D%222.4%22/%3E%3Crect%20x%3D%2213%22%20y%3D%224%22%20width%3D%2211%22%20height%3D%226%22%20rx%3D%222.4%22%20fill%3D%22%23E6A33C%22/%3E%3Cg%20stroke%3D%22%23E6A33C%22%20stroke-width%3D%222.1%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M11%2016l1.7%201.7%203-3.1%22/%3E%3Cline%20x1%3D%2218.5%22%20y1%3D%2216%22%20x2%3D%2225%22%20y2%3D%2216%22/%3E%3Cpath%20d%3D%22M11%2022.3l1.7%201.7%203-3.1%22/%3E%3Cline%20x1%3D%2218.5%22%20y1%3D%2222.3%22%20x2%3D%2225%22%20y2%3D%2222.3%22/%3E%3C/g%3E%3Ccircle%20cx%3D%2231%22%20cy%3D%2233%22%20r%3D%2211%22%20fill%3D%22%230D1014%22/%3E%3Cg%20transform%3D%22translate%2820.2%2C22.2%29%20scale%280.9%29%22%20fill%3D%22%23E6A33C%22%3E%3Cpath%20d%3D%22M19.14%2C12.94c0.04-0.3%2C0.06-0.61%2C0.06-0.94c0-0.32-0.02-0.64-0.07-0.94l2.03-1.58c0.18-0.14%2C0.23-0.41%2C0.12-0.61l-1.92-3.32c-0.12-0.22-0.37-0.29-0.59-0.22l-2.39%2C0.96c-0.5-0.38-1.03-0.7-1.62-0.94L14.4%2C2.81c-0.04-0.24-0.24-0.41-0.48-0.41h-3.84c-0.24%2C0-0.43%2C0.17-0.47%2C0.41L9.25%2C5.35C8.66%2C5.59%2C8.12%2C5.92%2C7.63%2C6.29L5.24%2C5.33c-0.22-0.08-0.47%2C0-0.59%2C0.22L2.74%2C8.87C2.62%2C9.08%2C2.66%2C9.34%2C2.86%2C9.48l2.03%2C1.58C4.84%2C11.36%2C4.8%2C11.69%2C4.8%2C12s0.02%2C0.64%2C0.07%2C0.94l-2.03%2C1.58c-0.18%2C0.14-0.23%2C0.41-0.12%2C0.61l1.92%2C3.32c0.12%2C0.22%2C0.37%2C0.29%2C0.59%2C0.22l2.39-0.96c0.5%2C0.38%2C1.03%2C0.7%2C1.62%2C0.94l0.36%2C2.54c0.05%2C0.24%2C0.24%2C0.41%2C0.48%2C0.41h3.84c0.24%2C0%2C0.44-0.17%2C0.47-0.41l0.36-2.54c0.59-0.24%2C1.13-0.56%2C1.62-0.94l2.39%2C0.96c0.22%2C0.08%2C0.47%2C0%2C0.59-0.22l1.92-3.32c0.12-0.22%2C0.07-0.47-0.12-0.61L19.14%2C12.94z%20M12%2C15.6c-1.98%2C0-3.6-1.62-3.6-3.6s1.62-3.6%2C3.6-3.6s3.6%2C1.62%2C3.6%2C3.6S13.98%2C15.6%2C12%2C15.6z%22/%3E%3C/g%3E%3C/svg%3E">
 <meta name="description" content="Software a medida, apps, automatización de procesos (Power Platform), Power BI y SharePoint para empresas e industria. Creador de NERA, app de seguridad para minería subterránea.">
 <meta property="og:title" content="Leandro Fin — Soluciones Informáticas a Medida">
 <meta property="og:description" content="Software, apps y automatización para empresas e industria. Creador de NERA (YMAD).">
@@ -29,7 +30,7 @@
     --font-m:"JetBrains Mono",ui-monospace,monospace;
   }
   *{margin:0;padding:0;box-sizing:border-box;}
-  html{scroll-behavior:smooth;}
+  html{scroll-behavior:smooth;overflow-x:hidden;}
   body{
     background:var(--ink);color:var(--paper);font-family:var(--font-b);
     line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden;
@@ -298,6 +299,10 @@
   ::-webkit-scrollbar-thumb{background:var(--ink-2);border-radius:10px;border:2px solid var(--ink);}
   ::-webkit-scrollbar-thumb:hover{background:var(--line);}
 
+  .brand .logo{width:34px;height:34px;flex:none;filter:drop-shadow(0 0 10px rgba(230,163,60,.35));}
+  .hero-logo{position:absolute;z-index:0;left:56%;top:50%;transform:translate(-50%,-50%);width:min(640px,88vw);opacity:.08;pointer-events:none;}
+  .hero-logo svg{width:100%;height:auto;display:block;}
+
   /* responsive */
   @media(max-width:900px){
     .svc-grid,.work-grid,.stats{grid-template-columns:1fr 1fr;}
@@ -313,6 +318,12 @@
     .svc-grid,.work-grid,.stats{grid-template-columns:1fr;}
     .step{grid-template-columns:56px 1fr;gap:16px;}
     .step .st-n{font-size:28px;}
+    .hero-in{padding-top:72px;}
+    .hero h1{font-size:clamp(40px,12.5vw,60px);line-height:1.07;letter-spacing:-.02em;max-width:100%;overflow-wrap:break-word;}
+    .hero p.lead{font-size:16px;}
+    .avail{font-size:10.5px;padding:6px 12px;}
+    .wrap{padding:0 20px;}
+    .hero-logo{opacity:.06;width:130vw;left:62%;}
   }
   @media(prefers-reduced-motion:reduce){
     *{animation:none!important;transition:none!important;scroll-behavior:auto!important;}
@@ -326,7 +337,7 @@
 <div class="grain"></div>
 <nav id="nav">
   <div class="nav-in">
-    <a href="#top" class="brand"><span class="dot"></span>Leandro Fin</a>
+    <a href="#top" class="brand" aria-label="Inicio"></a>
     <button class="nav-toggle" id="navToggle" aria-label="Abrir menú"><span></span><span></span><span></span></button>
     <div class="nav-links" id="navLinks">
       <a class="lk" href="#servicios">Servicios</a>
@@ -345,6 +356,7 @@
   <div class="aurora a2"></div>
   <div class="glow" id="glow"></div>
   <canvas id="net"></canvas>
+  <div class="hero-logo" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="7" y="7" width="23" height="32" rx="4" fill="none" stroke="#E6A33C" stroke-width="2.2"/><rect x="13" y="4" width="11" height="6" rx="2.4" fill="#E6A33C"/><g stroke="#E6A33C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M11 16l1.7 1.7 3-3.1"/><line x1="18.5" y1="16" x2="25" y2="16"/><path d="M11 22.3l1.7 1.7 3-3.1"/><line x1="18.5" y1="22.3" x2="25" y2="22.3"/></g><g transform="translate(20.2,22.2) scale(0.9)" fill="#E6A33C"><path d="M19.14,12.94c0.04-0.3,0.06-0.61,0.06-0.94c0-0.32-0.02-0.64-0.07-0.94l2.03-1.58c0.18-0.14,0.23-0.41,0.12-0.61l-1.92-3.32c-0.12-0.22-0.37-0.29-0.59-0.22l-2.39,0.96c-0.5-0.38-1.03-0.7-1.62-0.94L14.4,2.81c-0.04-0.24-0.24-0.41-0.48-0.41h-3.84c-0.24,0-0.43,0.17-0.47,0.41L9.25,5.35C8.66,5.59,8.12,5.92,7.63,6.29L5.24,5.33c-0.22-0.08-0.47,0-0.59,0.22L2.74,8.87C2.62,9.08,2.66,9.34,2.86,9.48l2.03,1.58C4.84,11.36,4.8,11.69,4.8,12s0.02,0.64,0.07,0.94l-2.03,1.58c-0.18,0.14-0.23,0.41-0.12,0.61l1.92,3.32c0.12,0.22,0.37,0.29,0.59,0.22l2.39-0.96c0.5,0.38,1.03,0.7,1.62,0.94l0.36,2.54c0.05,0.24,0.24,0.41,0.48,0.41h3.84c0.24,0,0.44-0.17,0.47-0.41l0.36-2.54c0.59-0.24,1.13-0.56,1.62-0.94l2.39,0.96c0.22,0.08,0.47,0,0.59-0.22l1.92-3.32c0.12-0.22,0.07-0.47-0.12-0.61L19.14,12.94z M12,15.6c-1.98,0-3.6-1.62-3.6-3.6s1.62-3.6,3.6-3.6s3.6,1.62,3.6,3.6S13.98,15.6,12,15.6z"/></g></svg></div>
   <div class="wrap hero-in">
     <div class="avail"><span class="live"></span> Disponible para nuevos proyectos</div>
     <div class="eyebrow">// soluciones informáticas &middot; software a medida</div>
@@ -515,9 +527,10 @@
     <div class="reveal">
       <div class="sec-label">// 04 — sobre mí</div>
       <h2 class="sec-title">Hola, soy Leandro.</h2>
-      <p>Soy desarrollador de soluciones informáticas. Mi trabajo es entender un problema real de una empresa y construir la <strong>herramienta exacta</strong> para resolverlo.</p>
-      <p>Combino dos mundos: el <strong>desarrollo de software y web</strong> (Next.js, React) y la <strong>transformación digital</strong> con Power Platform (Power Automate, Power BI, SharePoint). Esa mezcla es la que hizo posible NERA: una app que funciona donde otras no llegan.</p>
-      <p>Trabajo sobre todo con <strong>industria y seguridad e higiene</strong>, donde los datos confiables y en tiempo real no son un lujo: son parte de cuidar a las personas.</p>
+      <p>Ayudo a las empresas a <strong>transformar datos en decisiones</strong> más seguras, eficientes y rentables.</p>
+      <p>Combino mi experiencia en <strong>Seguridad e Higiene Laboral, Analítica de Datos y Transformación Digital</strong> para diseñar soluciones que mejoran la gestión operativa y fortalecen la prevención de riesgos.</p>
+      <p>Trabajo con herramientas como <strong>Power BI, Power Automate, SharePoint, Excel, IA y desarrollo web</strong>, creando sistemas que automatizan procesos, generan indicadores en tiempo real y facilitan la toma de decisiones.</p>
+      <p>Mi enfoque está puesto en la <strong>industria, minería y operaciones de alto riesgo</strong>, donde la información confiable y oportuna puede marcar la diferencia entre una tarea segura y un incidente.</p>
     </div>
     <div class="panel reveal">
       <div><span class="c">const</span> <span class="v">leandro</span> = {</div>
@@ -606,7 +619,7 @@
     const c = document.getElementById('net'); if(!c) return;
     const ctx = c.getContext('2d');
     const hero = document.getElementById('top');
-    const LINK = 140, RANGE = 175;
+    const LINK = 140, RANGE = 200;
     let w, h, pts, travelers, raf;
     const mouse = {x:0, y:0, on:false};
 
@@ -642,17 +655,18 @@
         const a=pts[i], b=pts[j], d=Math.hypot(a.x-b.x, a.y-b.y);
         if(d<LINK){ ctx.strokeStyle='rgba(230,163,60,'+(0.16*(1-d/LINK))+')'; ctx.lineWidth=1; ctx.beginPath(); ctx.moveTo(a.x,a.y); ctx.lineTo(b.x,b.y); ctx.stroke(); }
       }
-      // pointer interaction: connect + repel nearby nodes
+      // pointer interaction: connect + repel + highlight nearby nodes
       if(mouse.on){
         for(const p of pts){
           const dx=p.x-mouse.x, dy=p.y-mouse.y, d=Math.hypot(dx,dy)||1;
           if(d<RANGE){
-            ctx.strokeStyle='rgba(242,200,140,'+(0.55*(1-d/RANGE))+')'; ctx.lineWidth=1;
+            ctx.strokeStyle='rgba(244,205,150,'+(0.9*(1-d/RANGE))+')'; ctx.lineWidth=1.5;
             ctx.beginPath(); ctx.moveTo(mouse.x,mouse.y); ctx.lineTo(p.x,p.y); ctx.stroke();
-            const f=(1-d/RANGE)*1.1; p.x+=(dx/d)*f; p.y+=(dy/d)*f;
+            const f=(1-d/RANGE)*2.4; p.x+=(dx/d)*f; p.y+=(dy/d)*f;
+            glowDot(p.x,p.y,5.5,'rgba(255,228,175,'+(0.95*(1-d/RANGE))+')','rgba(230,163,60,0)');
           }
         }
-        glowDot(mouse.x, mouse.y, 12, 'rgba(255,226,170,.55)', 'rgba(230,163,60,0)');
+        glowDot(mouse.x, mouse.y, 24, 'rgba(255,210,130,.5)', 'rgba(230,163,60,0)');
       }
       // nodes (some glowing like stars)
       for(const p of pts){
